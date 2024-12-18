@@ -1,0 +1,10 @@
+version: '3'
+services:
+  front:
+    image: jonaszl/consultasreniec_fe_hackathon:lastest
+    ports:
+      - "5173:5173"
+  app1:
+    image: jonaszl/reniec_be_hackathon:latest
+    ports:
+      - "8080:8080"

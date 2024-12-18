@@ -1,0 +1,116 @@
+/* App.css */
+*{
+  align-items: center;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  justify-content: center;
+}
+.container {
+  width: 1300px;
+}
+
+.table-custom {
+  justify-content: center;
+  width: 1116px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #7abbf5;
+  font-size: 14px;
+}
+
+.table-custom th {
+  color: white;
+  background-color: #0b355f;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-custom td {
+  text-align: center;
+}
+
+
+.btn-action {
+  margin-right: 5px;
+}
+
+
+
+.action-buttons button {
+  margin-right: 10px;
+}
+
+.modal-custom .modal-content {
+  border-radius: 8px;
+}
+
+.modal-custom .modal-header {
+  background-color: #f8f9fa;
+}
+
+.modal-custom .modal-footer button {
+  font-weight: bold;
+}
+
+/* Estilo para la carga de datos */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #bd1313;
+}
+
+
+.botones_extras{
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+}
+
+
+
+.registrar_btn{
+  background-color: rgb(25, 78, 146);
+}
+
+.lista_btn{
+  background-color: rgb(19, 143, 180);
+}
+
+
+.api-title {
+  font-size: 2.5rem;
+  font-weight: 600; 
+  color: #333;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase; 
+  margin-top: 20.0px;
+}
+
+.container {
+  max-width: 1140px;  
+  margin: 0 auto; 
+}
+
+
+
+.container_titulo{
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 3px solid rgb(0, 110, 255);
+}
+
+.imagensdni{
+  width: 100px;
+  height: 100px;
+}
+
+.editar_btn_footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_registra{
+  display: flex;
+  justify-content: space-between;
+}
